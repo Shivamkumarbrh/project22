@@ -1,0 +1,94 @@
+@media screen and (max-width:1500px) {
+    .container{
+        padding:70px 20px;
+    }
+    .left{
+        width: 30%;
+        box-sizing: border-box;
+    }
+    .center{
+       /* margin: auto; */
+        width: 50%;
+       
+    }
+    .right{
+        width: 20%;
+    } 
+    .boxFirst img{
+        width: 100px;
+    }
+  
+}
+
+
+@media screen and (max-width:600px) {
+    .navbar{
+        display: none;
+    }
+
+.navbarMobile{
+    background-color: rgb(136, 136, 214);
+    display: flex;
+    justify-content: space-between;
+}
+.navbarMobile a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 5px;
+    color: white;
+}
+.navbarMobile a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.navbarMobile a i{
+    padding: 0px 15px;
+}
+.dropdown2{
+    display: none;
+    background-color: rgb(136, 136, 214);
+}
+.dropdown2 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    box-sizing: border-box;
+}
+.dropdown2 a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.container{
+    padding:25px;
+}
+.left{
+    margin: auto;
+    width: 100%;
+}
+.center{
+    margin: 10px auto;
+    width: 100%;
+    padding: 0px ;
+}
+.right{
+    margin: auto;
+    width: 100%;
+}
+.introImg img{
+    width: 98% !important; 
+    margin-bottom: 5px;
+}
+.boxFirst img{
+    width: 98%;
+}
+.boxSecond img{
+    width: 200px;
+    height: 200px;
+}
+.boxSecond a{
+display: block;
+width: 100%;
+margin-bottom: 10px;
+}
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="styleMobile.css">
+    <script src="https://kit.fontawesome.com/14d686e227.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbarContent">
+            <a href="#" id="navbarContentFirst"><i class="fa-solid fa-house-chimney"></i>Logo</a>
+            <a href="#"><i class="fa-solid fa-earth-americas"></i></a>
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            <div class="dropdownContainer">
+            <a href="#" id="navbarContentLast"  onmouseover="dOpen()" onmouseleave="dClose()"><i class="fa-solid fa-bell"></i> <span id="notification">3</span></a>
+            <div class="dropdown" id="ddownpage" onmouseover="dOpen()" onmouseleave="dClose()">
+                <a href="#">One new friend request</a>
+                <a href="#">Kumar posted on your wall</a>
+                <a href="#">Jane like your post</a>
+            </div>
+        </div>
+    </div>
+        <div class="navbarImg">
+        <a href="#"><img src="/img/man1.jpg" alt=""></a>
+    </div>
+    </div>
+
+ <!-- navbarMobile -->
+
+ <div class="navbarMobile">
+    <a href="#" ><i class="fa-solid fa-house"></i>Logo</a>
+    <a href="#" onclick="btn()"><i class="fa-solid fa-bars"></i></a>
+</div>
+<div class="dropdown2">
+    <a href="#">Link2</a>
+    <a href="#">Link3</a>
+    <a href="#">My Profile</a>
+</div>
+
+
+
+
+  <div class="container">
+
+
+
+    <div class="left">
+    <div class="profile">
+        <div class="profileContent">
+            <p>My Profile</p>
+            <img src="/img/man2.jpg" alt="">
+        </div>
+        <p><i class="fa-solid fa-desktop"></i>Software Developer</p>
+        <p><i class="fa-solid fa-house"></i>Lucknow In</p>
+        <p><i class="fa-solid fa-cake-candles"></i>Aug 15, 2000</p>
+    </div>
+
+    <!-- mygroup -->
+    <div class="mgroup">
+        <ul>
+            <li onclick="paragraph1()"><i class="fa-solid fa-spinner"></i>MyGroup</li>
+            <p id="mgroupFirst">Some text...</p>
+            <li onclick="paragraph2()"><i class="fa-regular fa-calendar-check"></i>My Event</li>
+            <p id="mgroupSecond">Some text...</p>
+            <li onclick="imgGroup()"><i class="fa-solid fa-user-group"></i>My Photo</li>
+            <div class="imgContainer" >
+                <img src="/img/fifth.jpg" alt="">
+                <img src="/img/first.jpg" alt="">
+                <img src="/img/jodhpur.jpg" alt="">
+                <img src="/img/seven.jpg" alt="">
+                <img src="/img/sixth.jpg" alt="">
+                <img src="/img/appbg2.jpg" alt="">
+            </div>
+        </ul>
+    </div>
+    <div class="interest">
+        <p>Interest</p>
+        <span>News</span>
+        <span>CodEBYKumar</span>
+        <span>Labels</span>
+        <span>Games</span>
+        <span style="background:rgba(57, 99, 135, 0.907) ">Friends</span>
+        <span style="background:rgba(57, 99, 135, 0.907) ">Games</span>
+        <span style="background:rgba(61, 72, 82, 0.907) ">Friends</span>
+        <span style="background:rgba(61, 72, 82, 0.907) ">Food</span>
+        <span  id="lightblue1">Design</span>
+        <span  id="lightblue2">Art</span>
+        <span  id="lightblue3">Photos</span>
+    </div>
+    <div class="alert">
+            <div class="alertContent">
+                <h3>Hey!</h3>
+                <button onclick="alert1()"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <p>People are looking at your profile. Find out who.</p>
+    </div>
+</div>
+<div class="center">
+    <div class="input">
+        <p>Social Media template by CodEBYKumar</p>
+        <input type="text" placeholder="Status:Feeling Blue">
+        <button>Post</button>
+    </div>
+    <div class="intro">
+        <div class="introMain">
+            <img src="/img/woman2.jpg" alt="">
+            <p style="padding-left: 10px;">John Doe</p>
+            <p class="introLeftParagraph">1 min</p>
+        </div>
+        <div class="introParagraph">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="introImg">
+                <img src="/img/appbg2.jpg" alt="">
+                <img src="/img/appbg3.jpg" alt="">
+            </div>
+        </div>
+        <button><i class="fa-solid fa-thumbs-up"></i>Like</button>
+        <button><i class="fa-solid fa-comment"></i>Comment</button>
+    </div>
+    <div class="intro">
+        <div class="introMain">
+            <img src="/img/woman1.jpg" alt="">
+            <p style="padding-left: 10px;">John Doe</p>
+            <p class="introLeftParagraph">16 min</p>
+        </div>
+        <div class="introParagraph">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <button><i class="fa-solid fa-thumbs-up"></i>Like</button>
+        <button><i class="fa-solid fa-comment"></i>Comment</button>
+    </div>
+    <div class="intro">
+        <div class="introMain">
+            <img src="/img/girlpotrait.jpg" alt="">
+            <p style="padding-left: 10px;">John Doe</p>
+            <p class="introLeftParagraph">32 min</p>
+        </div>
+        <div class="introParagraph">
+            <p>Have you seen this?</p>
+            <img src="/img/taj.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <button><i class="fa-solid fa-thumbs-up"></i>Like</button>
+        <button><i class="fa-solid fa-comment"></i>Comment</button>
+    </div>
+</div>
+<div class="right">
+    <div class="boxFirst">
+        <p>Upcoming Events:</p>
+        <img src="/img/appbg4.jpg" alt="">
+        <h2>Holiday</h2>
+        <p>Friday 15:00</p>
+        <button>Info</button>
+    </div>
+    <div class="boxSecond">
+        <p>Friend Request</p>
+        <img src="/img/photographer.jpg" alt="">
+        <p style="padding: 0px;">Jane Doe</p>
+        <p ><a href="#" id="boxSecondFirst"><i class="fa-solid fa-check"></i></a><a href="#" id="boxSecondSecond"><i class="fa-solid fa-xmark"></i></a></p>
+    </div>
+    <div class="boxThird">
+        <p>ADS</p>
+    </div>
+    <div class="boxFourth">
+        <i class="fa-solid fa-bug"></i> 
+    </div>
+   
+    </div>
+    </div>
+    <footer>
+        Footer
+    </footer>
+    <div class="bottom">
+       <p> Powered By CodEBYKumar</p>
+    </div>
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
