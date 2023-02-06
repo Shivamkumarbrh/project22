@@ -13,9 +13,13 @@
 }
 .boxFirst button{
     width: 100%;
+    cursor: pointer;
     border: none;
     padding: 8px 0px;
     margin: 0px 0px 10px 0px;
+}
+.boxFirst button:hover{
+ background-color: #ddd;
 }
 .boxSecond,.boxThird,.boxFourth{
     margin: 15px 0px;
@@ -31,6 +35,7 @@
 .boxSecond img{
     width: 100px;
     height: 100px;
+    object-fit: cover;
 }
 .boxSecond a{
     display: inline-block;

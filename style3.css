@@ -25,10 +25,14 @@
 }
 .input button{
     padding: 10px 15px;
+    cursor: pointer;
     border: none;
     background-color:rgba(13, 69, 118, 0.907);
     margin: 5px 0px 5px 0px;
     color: white;
+}
+.input button:hover{
+    background-color:rgba(43, 137, 218, 0.907);
 }
 .input input:focus{
     outline: 1px solid blue;
@@ -53,6 +57,7 @@
 }
 .introMain img{
     width:60px;
+    object-fit: cover;
     height: 60px;
     border-radius: 50%;
 }
@@ -76,10 +81,14 @@
 }
 .intro button{
     margin: 12px 0px;
+    cursor: pointer;
     padding: 8px 15px;
     background-color: rgb(39, 43, 152);
     color: white;
     border: none;
+}
+.intro button:hover{
+    background-color: rgb(77, 82, 228);
 }
 .introParagraph img{
     width: 100%;

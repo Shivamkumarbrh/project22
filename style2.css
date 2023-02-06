@@ -23,6 +23,7 @@
 .profileContent img{
     width: 100px;
     height: 100px;
+    object-fit: cover;
     border-radius: 50px;
 }
 .mgroup{
@@ -62,6 +63,7 @@
 }
 .imgContainer img{
     width: 47%;
+    object-fit: cover;
 }
 .interest{
     background-color: white;

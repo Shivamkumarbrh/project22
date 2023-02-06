@@ -29,13 +29,25 @@
 .navbarMobile{
     background-color: rgb(136, 136, 214);
     display: flex;
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    width: 100%;
+    /* margin-bottom: 200px; */
     justify-content: space-between;
 }
-.navbarMobile a{
+.navbarMobile a,.navbarMobile button{
     display: inline-block;
     text-decoration: none;
     padding: 10px 5px;
     color: white;
+}
+.navbarMobile button{
+    background-color: transparent;
+    border: none;
+}
+.profileContent{
+    margin-top: 30px;
 }
 .navbarMobile a:hover{
     background-color: #ddd;
@@ -46,6 +58,10 @@
 }
 .dropdown2{
     display: none;
+    position: sticky;
+    top: 38px;
+    z-index: 2;
+    margin-top: 38px;
     background-color: rgb(136, 136, 214);
 }
 .dropdown2 a{
